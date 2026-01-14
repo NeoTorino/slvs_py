@@ -13,7 +13,7 @@ if __name__ == '__main__':
         license='Gnu General Public License 3.0',
         author='Zheng, Lei',
         author_email='realthunder.dev@gmail.com',
-        cmake_args=['-DENABLE_GUI:BOOL=OFF','-DBUILD_PYTHON:BOOL=ON'],
+        cmake_args=['-DENABLE_GUI:BOOL=OFF','-DBUILD_PYTHON:BOOL=ON', '-DCMAKE_POLICY_VERSION_MINIMUM=3.5'],
         cmake_source_dir='py_slvs',
         url='https://github.com/realthunder/slvs_py',
         description='Python binding of SOLVESPACE geometry constraint solver',
