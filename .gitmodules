@@ -1,3 +1,4 @@
 [submodule "slvs"]
-	path = py_slvs
-	url = https://github.com/realthunder/solvespace.git
+    path = py_slvs
+    url = https://github.com/NeoTorino/solvespace.git
+    branch = freebsd-cmake-fix
